@@ -1,0 +1,5 @@
+Bloq    -> has many Lockers
+
+Locker  -> belongs to Bloq and can hold a Rent
+
+Rent    -> belongs to a Locker
