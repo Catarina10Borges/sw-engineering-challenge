@@ -3,6 +3,7 @@
 
 from pydantic import BaseModel
 from enum import Enum
+from typing import Optional
 
 class RentStatus(str, Enum):
     CREATED = "CREATED"
@@ -34,7 +35,7 @@ class Locker(BaseModel):
 
 class Rent(BaseModel):
     id: str
-    lockerId: str
+    lockerId: Optional[str] 
     weight: float
     size: RentSize
     status: RentStatus
