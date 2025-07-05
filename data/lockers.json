@@ -52,5 +52,11 @@
     "bloqId": "22ffa3c5-3a3d-4f71-81f1-cac18ffbc510",
     "status": "CLOSED",
     "isOccupied": false
+  },
+  {
+    "id": "feb72a9a-258d-49c9-92de-f90b1f11984d",
+    "bloqId": "22ffa3c5-3a3d-4f71-81f1-cac18ffbc510",
+    "status": "CLOSED",
+    "isOccupied": false
   }
 ]

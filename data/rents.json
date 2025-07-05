@@ -26,5 +26,12 @@
     "weight": 30.0,
     "size": "XL",
     "status": "DELIVERED"
+  },
+  {
+    "id": "50be06a8-1dec-4b18-a23c-e98588207754",
+    "lockerId": "c4705b02-45be-4fd7-8d82-d336df1fa493",
+    "weight": 5.0,
+    "size": "M",
+    "status": "DELIVERED"
   }
 ]
