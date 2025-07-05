@@ -1,4 +1,4 @@
-#Each bloq contains many lockers (doors) 
+#Each bloq contains many lockers (doors)
 #Each Locker contain a Rent (parcel)
 
 from pydantic import BaseModel
