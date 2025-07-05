@@ -35,7 +35,7 @@ class Locker(BaseModel):
 
 class Rent(BaseModel):
     id: str
-    lockerId: Optional[str] 
+    lockerId: Optional[str]
     weight: float
     size: RentSize
     status: RentStatus
