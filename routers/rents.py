@@ -29,7 +29,7 @@ def get_rent(rent_id: str):
     return rent
 
 
-# post
+# put
 @router.put("/{rent_id}/dropoff")
 def dropoff_parcel(rent_id: str, payload: DropoffRequest):
     rent = get_rent_by_id(rent_id)
@@ -120,7 +120,7 @@ def create_rent(rent: Rent):
     logger.info(f"New rent created: {rent.id}")
     return rent
 
-# endpoint to update rent 
+# endpoint to update rent
 @router.put("/update_rent_status", response_model=Rent)
 def update_rent_status(
     rent_id: str = Body(...),
